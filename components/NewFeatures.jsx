@@ -2,6 +2,6 @@ const NewFeatures = () => (
   <div>
     New Features
   </div>
-);
+)
 
-export default NewFeatures;
+export default NewFeatures

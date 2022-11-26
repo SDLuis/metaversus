@@ -1,9 +1,9 @@
-'use client';
+'use client'
 
 const Feedback = () => (
   <section>
     Feedback section
   </section>
-);
+)
 
-export default Feedback;
+export default Feedback

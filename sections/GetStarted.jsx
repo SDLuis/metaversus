@@ -1,9 +1,9 @@
-'use client';
+'use client'
 
 const GetStarted = () => (
   <section>
     Get Started Section
   </section>
-);
+)
 
-export default GetStarted;
+export default GetStarted

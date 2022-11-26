@@ -1,9 +1,9 @@
-'use client';
+'use client'
 
 const Hero = () => (
   <section>
     Hero section
   </section>
-);
+)
 
-export default Hero;
+export default Hero
