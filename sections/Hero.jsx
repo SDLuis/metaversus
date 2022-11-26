@@ -5,7 +5,7 @@ import styles from '../styles'
 import { slideIn, staggerContainer, textVariant } from '../utils/motion'
 
 const Hero = () => (
-  <section className='sm:py-10 xs:py-8 py-12 sm:pl-10 pl-6'>
+  <section className='sm:py-4 py-12 sm:pl-10 pl-6'>
     <motion.div
       variants={staggerContainer}
       initial='hidden'
@@ -36,8 +36,8 @@ const Hero = () => (
           initial='hidden'
           whileInView='show'
         >
-          <div className='absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-0 -top-[30px]' />
-          <img src='/cover.png' alt='cover' className='w-full -mt-2 sm:-mt-0 sm:h-[350px] h-[350px] object-cover rounded-tl-[140px] z-10 relative' />
+          <div className='absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-0 -top-[30px] md:-top-[18px]' />
+          <img src='/cover.png' alt='cover' className='w-full -mt-4 sm:mt-0 xl:-mt-[1px] sm:h-[362px] h-[350px] object-cover rounded-tl-[140px] z-10 relative' />
           <a href='#explore'>
             <div className='w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10'>
               <img
