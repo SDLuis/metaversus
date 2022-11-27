@@ -24,20 +24,20 @@ export const exploreWorlds = [
     imgUrl: '/planet-05.png',
     title: 'Hawkins Labs',
   },
-];
+]
 
 export const startingFeatures = [
   'Find a world that suits you and you want to enter',
   'Enter the world by reading basmalah to be safe',
   'No need to beat around the bush, just stay on the gas and have fun',
-];
+]
 
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
     title: 'A new world',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'We have the latest update with new world for you to try never mind',
   },
   {
     imgUrl: '/headset.svg',
@@ -45,7 +45,7 @@ export const newFeatures = [
     subtitle:
         'In the latest update, your eyes are narrow, making the world more realistic than ever',
   },
-];
+]
 
 export const insights = [
   {
@@ -66,7 +66,7 @@ export const insights = [
     subtitle:
         'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
   },
-];
+]
 
 export const socials = [
   {
@@ -85,4 +85,4 @@ export const socials = [
     name: 'facebook',
     url: '/facebook.svg',
   },
-];
+]
