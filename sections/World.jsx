@@ -41,7 +41,7 @@ const World = () => (
 
         <img src='group-people.svg' alt='people' className='absolute bottom-52 -right-20 lg:bottom-40 lg:right-24 w-[400px] h-[400px]' />
 
-        <img src='group-people-02.svg' alt='people' className='absolute bottom-40 -left-20 lg:bottom-12 lg:left-24 w-[300px] h-[300px]' />
+        <img src='group-people-02.svg' alt='people' className='absolute bottom-40 -left-16 lg:bottom-12 lg:left-24 w-[300px] h-[300px]' />
 
         <div className='absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]'>
           <img src='people-03.png' alt='people' className='w-full h-full' />
