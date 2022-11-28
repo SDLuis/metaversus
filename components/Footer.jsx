@@ -1,9 +1,69 @@
 'use client'
 
+import { motion } from 'framer-motion'
+import { socials } from '../constants'
+
+import styles from '../styles'
+import { footerVariants } from '../utils/motion'
+
 const Footer = () => (
-  <footer>
-    footer
-  </footer>
+  <motion.footer
+    variants={footerVariants}
+    initial='hidden'
+    whileInView='show'
+    className={`${styles.xPaddings} py-8 relative`}
+  >
+    <div className='footer-gradient' />
+    <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
+      <div className='flex items-center justify-between flex-wrap gap-5'>
+        <h4 className='font-bold md:text-[64px] text-[44px] text-white'>
+          Enter the Metaverse
+        </h4>
+        <button type='button' className='flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]'>
+          <img
+            src='/headset.svg'
+            alt='headset'
+            className='w-[24px] h-[24px] object-contain'
+          />
+          <span className='font-normal text-[16px] text-white'>
+            Enter Metaverse
+          </span>
+        </button>
+      </div>
+
+      <div className='flex flex-col'>
+        <div className='mb-[50px] h-[2px] bg-white opacity-10' />
+
+        <div className='flex items-center justify-between flex-wrap gap-4'>
+          <h4 className='font-extrabold text-[24px] text-white'>
+            METAVERSUS
+          </h4>
+          <div className='flex flex-col gap-2 text-center tracking-wider'>
+            <p className='font-normal text-[14px] text-white opacity-60'>
+              Inspired on Figma design
+            </p>
+            <p className='font-normal text-[14px] text-white opacity-60'>
+              Make with love ❤️ by Luis Rincon
+            </p>
+            <p className='font-normal text-[14px] text-white opacity-60'>
+              Copyright © 2021 - 2022 Metaversus. All rights reserved.
+            </p>
+          </div>
+          <div className='flex gap-4'>
+            {socials.map((social) => (
+              <a key={social.name} href={social.url} target='_blank' rel='noreferrer'>
+                <img
+                  src={social.imgUrl}
+                  alt={social.name}
+                  className='w-[24px] h-[24px] object-contain cursor-pointer'
+                />
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  </motion.footer>
 )
 
 export default Footer
