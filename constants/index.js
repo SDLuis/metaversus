@@ -71,18 +71,22 @@ export const insights = [
 export const socials = [
   {
     name: 'twitter',
-    url: '/twitter.svg',
+    url: 'https://twitter.com/Louistejeda_',
+    imgUrl: '/twitter.svg',
   },
   {
     name: 'linkedin',
-    url: '/linkedin.svg',
+    url: 'https://www.linkedin.com/in/louistejeda',
+    imgUrl: '/linkedin.svg',
   },
   {
     name: 'instagram',
-    url: '/instagram.svg',
+    url: 'https://www.instagram.com/louistejeda',
+    imgUrl: '/instagram.svg',
   },
   {
     name: 'facebook',
-    url: '/facebook.svg',
+    url: 'https://www.facebook.com/luis.tejeda.909',
+    imgUrl: '/facebook.svg',
   },
 ]
