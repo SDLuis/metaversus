@@ -38,7 +38,7 @@ const Footer = () => (
           <h4 className='font-extrabold text-[24px] text-white'>
             METAVERSUS
           </h4>
-          <div className='flex flex-col gap-2 text-center tracking-wider'>
+          <div className='flex flex-col gap-2 lg:text-center tracking-wider'>
             <p className='font-normal text-[14px] text-white opacity-60'>
               Inspired on Figma design
             </p>
