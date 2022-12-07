@@ -43,7 +43,7 @@ const Footer = () => (
               Inspired on Figma design
             </p>
             <p className='font-normal text-[14px] text-white opacity-60'>
-              Make with love ❤️ by Luis Rincon
+              Made with love ❤️ by Luis Rincon
             </p>
             <p className='font-normal text-[14px] text-white opacity-60'>
               Copyright © 2021 - 2022 Metaversus. All rights reserved.
